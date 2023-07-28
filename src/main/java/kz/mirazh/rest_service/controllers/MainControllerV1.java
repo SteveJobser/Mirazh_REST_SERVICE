@@ -11,4 +11,9 @@ public class MainControllerV1 {
     public String getInit() {
         return "Hello world";
     }
+
+    @GetMapping("getInit2")
+    public String getInit2() {
+        return "Hello world";
+    }
 }

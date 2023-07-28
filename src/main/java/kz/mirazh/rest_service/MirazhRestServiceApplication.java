@@ -1,0 +1,13 @@
+package kz.mirazh.rest_service;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MirazhRestServiceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MirazhRestServiceApplication.class, args);
+    }
+
+}

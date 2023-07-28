@@ -8,4 +8,5 @@ import lombok.NoArgsConstructor;
 public class SimpleJson {
     private String name;
     private int age;
+    private String sex;
 }
